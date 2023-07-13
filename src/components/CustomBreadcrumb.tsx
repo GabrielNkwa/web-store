@@ -6,7 +6,7 @@ import {
   Text,
 } from '@chakra-ui/react';
 import { ChevronRightIcon } from '@chakra-ui/icons';
-import { IBreadcrumbItem } from '@src/model';
+import { IBreadcrumbItem } from '../model';
 
 interface ICustomBreadcrumbProps {
   items?: IBreadcrumbItem[];
