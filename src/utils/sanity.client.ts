@@ -1,4 +1,4 @@
-import { ClientConfig, createClient } from '@sanity/preview-kit/client';
+import { type ClientConfig, createClient } from '@sanity/client';
 
 export const clientConfig: ClientConfig = {
   projectId: 'djq50trl',
