@@ -26,11 +26,11 @@ export const Banner = () => {
           >
             Online Shopping <br /> Made Easy
           </Heading>
-          <Text fontSize={{ base: 'md', lg: 'lg' }} py="1rem" maxW="600px">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-            autem voluptatem iure illo optio obcaecati accusantium fugiat
-            dolores tenetur
-          </Text>
+          <Text
+            fontSize={{ base: 'md', lg: 'lg' }}
+            py="1rem"
+            maxW="600px"
+          ></Text>
           <Link href="/products">
             <Button
               borderRadius="50px"
@@ -48,7 +48,7 @@ export const Banner = () => {
             my="2rem"
             w={{ base: '300px', lg: '600px' }}
             h={{ base: '300px', lg: '500px' }}
-            bg="center / cover no-repeat url(mockup.svg)"
+            bg="center / cover no-repeat url(mock-up.svg)"
           />
           {/* <BannerSlider /> */}
         </Box>
