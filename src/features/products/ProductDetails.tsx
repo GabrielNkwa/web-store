@@ -134,7 +134,7 @@ export const ProductDetails = ({ product }: ProductDetailsProps) => {
             <Box borderWidth={1} borderColor="gray.100" p="1rem">
               <Text fontWeight="bold">Return Delivery</Text>
               <Text color="gray.500">
-                Free 30 Days Delivery Returns
+                Returns of devices possible within 5 days of delivery
                 <Link textDecor="underline"> Details</Link>
               </Text>
             </Box>
