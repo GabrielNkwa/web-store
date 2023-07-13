@@ -114,7 +114,7 @@ export const Cart = () => {
                   </Button>
                 </Link>
               </Box>
-              <Box fontWeight="bold">Total: $ {calculateItemsTotal(cart)}</Box>
+              <Box fontWeight="bold">Total: ₦ {calculateItemsTotal(cart)}</Box>
             </DrawerFooter>
           )}
         </DrawerContent>

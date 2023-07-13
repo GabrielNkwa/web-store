@@ -42,7 +42,7 @@ export const Hero = ({
       </Box>
       <Box mx="2rem" w={{ base: '100%', md: '50%' }} mt="1rem">
         <Image
-          src={imageUrl}
+          src="./mock-up.svg"
           alt={heading}
           objectFit="cover"
           maxW={{ base: '100%' }}
