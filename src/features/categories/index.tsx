@@ -1,6 +1,6 @@
 'use client';
 import { Card, CardBody, Grid, Heading } from '@chakra-ui/react';
-import { ICategory } from '@src/model';
+import { ICategory } from '../../model';
 import Image from 'next/image';
 import Link from 'next/link';
 
