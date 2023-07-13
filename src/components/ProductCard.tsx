@@ -38,7 +38,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
               <Heading size="sm">{getSubstring(product.name, 20)}</Heading>
             </Link>
             <Flex color="brand.primaryDark" fontWeight="bold">
-              <Text fontSize="sm">$ </Text>
+              <Text fontSize="sm">₦ </Text>
               <Text fontSize="lg">{product.price}</Text>
             </Flex>
           </Flex>
